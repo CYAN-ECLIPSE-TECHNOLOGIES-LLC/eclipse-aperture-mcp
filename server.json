@@ -4,5 +4,37 @@
  "title": "Eclipse Aperture MCP",
  "description": "The Instagram adapter, formalized: capability-declared, hash-bound native variants for Feed",
  "version": "0.1.0",
- "websiteUrl": "https://eclipsebazaar.com"
+ "websiteUrl": "https://eclipsebazaar.com",
+ "icons": [
+  {
+   "src": "https://raw.githubusercontent.com/CYAN-ECLIPSE-TECHNOLOGIES-LLC/eclipse-aperture-mcp/main/icon-512.png",
+   "mimeType": "image/png",
+   "sizes": [
+    "512x512"
+   ]
+  }
+ ],
+ "repository": {
+  "source": "github",
+  "url": "https://github.com/CYAN-ECLIPSE-TECHNOLOGIES-LLC/eclipse-aperture-mcp"
+ },
+ "packages": [
+  {
+   "registryType": "pypi",
+   "identifier": "eclipse-aperture",
+   "version": "0.1.0",
+   "runtimeHint": "uvx",
+   "transport": {
+    "type": "stdio"
+   }
+  },
+  {
+   "registryType": "oci",
+   "identifier": "ghcr.io/cyan-eclipse-technologies-llc/eclipse-aperture-mcp:0.1.0",
+   "runtimeHint": "docker",
+   "transport": {
+    "type": "stdio"
+   }
+  }
+ ]
 }
