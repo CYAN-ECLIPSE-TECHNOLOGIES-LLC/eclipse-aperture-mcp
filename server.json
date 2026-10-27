@@ -3,7 +3,7 @@
  "name": "io.github.CYAN-ECLIPSE-TECHNOLOGIES-LLC/aperture",
  "title": "Eclipse Aperture MCP",
  "description": "The Instagram adapter, formalized: capability-declared, hash-bound native variants for Feed",
- "version": "0.1.0",
+ "version": "0.1.1",
  "websiteUrl": "https://eclipsebazaar.com",
  "icons": [
   {
@@ -24,14 +24,6 @@
    "identifier": "eclipse-aperture",
    "version": "0.1.0",
    "runtimeHint": "uvx",
-   "transport": {
-    "type": "stdio"
-   }
-  },
-  {
-   "registryType": "oci",
-   "identifier": "ghcr.io/cyan-eclipse-technologies-llc/eclipse-aperture-mcp:0.1.0",
-   "runtimeHint": "docker",
    "transport": {
     "type": "stdio"
    }
