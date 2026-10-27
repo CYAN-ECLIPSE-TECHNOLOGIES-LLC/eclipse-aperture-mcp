@@ -1,4 +1,8 @@
 #!/usr/bin/env python3
+# Eclipse Aperture MCP
+# Copyright © 2026 Cyan Eclipse Technologies LLC · cetech.ai
+# Generate icon-512.png — brand system §6: eclipse motif on the navy
+
 """Generate icon-512.png — brand system §6: eclipse motif on the navy
 field (#0d1b2a), one per-product glyph. Aperture's glyph is the camera
 aperture itself: six blades forming the hexagonal opening inside the
@@ -51,3 +55,5 @@ def main():
 
 if __name__ == "__main__":
     main()
+
+# Eclipse Aperture MCP · © 2026 Cyan Eclipse Technologies LLC · cetech.ai

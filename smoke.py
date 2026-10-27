@@ -1,4 +1,8 @@
 #!/usr/bin/env python3
+# Eclipse Aperture MCP
+# Copyright © 2026 Cyan Eclipse Technologies LLC · cetech.ai
+# Smoke: drive server.py over real stdio with a temp state file.
+
 """Smoke: drive server.py over real stdio with a temp state file.
 Probes the static capability declaration, builds a Reel variant from
 the core's sample package, renders its preview pack. NO live calls."""
@@ -64,3 +68,5 @@ def main():
 
 if __name__ == "__main__":
     main()
+
+# Eclipse Aperture MCP · © 2026 Cyan Eclipse Technologies LLC · cetech.ai

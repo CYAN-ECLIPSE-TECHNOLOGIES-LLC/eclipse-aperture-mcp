@@ -1,4 +1,8 @@
 #!/usr/bin/env python3
+# Eclipse Aperture MCP
+# Copyright © 2026 Cyan Eclipse Technologies LLC · cetech.ai
+# Eclipse Aperture v0.1 (S0 formalization) — unit tests.
+
 """Eclipse Aperture v0.1 (S0 formalization) — unit tests.
 Run: python3 -m unittest discover tests"""
 import json
@@ -145,3 +149,5 @@ class TestVariants(unittest.TestCase):
 
 if __name__ == "__main__":
     unittest.main()
+
+# Eclipse Aperture MCP · © 2026 Cyan Eclipse Technologies LLC · cetech.ai

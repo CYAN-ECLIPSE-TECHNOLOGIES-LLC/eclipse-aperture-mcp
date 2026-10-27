@@ -1,4 +1,7 @@
 #!/usr/bin/env python3
+# Eclipse Aperture MCP
+# Copyright © 2026 Cyan Eclipse Technologies LLC · cetech.ai
+
 """Eclipse Aperture MCP — v0.1.0, phase S0 (formalization).
 
 Powered by Cyan Eclipse Technologies (cetech.ai).
@@ -409,3 +412,5 @@ def main():
 
 if __name__ == "__main__":
     main()
+
+# Eclipse Aperture MCP · © 2026 Cyan Eclipse Technologies LLC · cetech.ai
