@@ -13,8 +13,7 @@ import tempfile
 from pathlib import Path
 
 ROOT = Path(__file__).parent
-CORE_FIX = ROOT.parent / "eclipse-social-core-mcp" / "fixtures" \
-    / "sample_content.json"
+CORE_FIX = ROOT / "fixtures" / "sample_content.json"
 
 
 def call(proc, rid, name, args):

@@ -14,8 +14,7 @@ sys.path.insert(0, str(Path(__file__).parent.parent))
 import server as A  # noqa: E402
 
 ROOT = Path(__file__).parent.parent
-CORE_FIX = ROOT.parent / "eclipse-social-core-mcp" / "fixtures" \
-    / "sample_content.json"
+CORE_FIX = ROOT / "fixtures" / "sample_content.json"
 
 
 def package():
