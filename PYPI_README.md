@@ -1,5 +1,7 @@
 # eclipse-aperture
 
+mcp-name: io.github.CYAN-ECLIPSE-TECHNOLOGIES-LLC/aperture
+
 **What this is:** the MCP server for **Eclipse Aperture** — the
 Instagram adapter of Cyan Eclipse Technologies' Eclipse social
 adapter family, formalized. One approved package becomes native Feed,
